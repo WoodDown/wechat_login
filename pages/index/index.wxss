@@ -1,0 +1,7 @@
+/**index.wxss**/
+progress {margin: 10px;}
+
+checkbox {
+  margin-top: 20rpx;
+  float: right;
+}

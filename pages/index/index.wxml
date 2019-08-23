@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+  <form bindsubmit="submit">
+    <input name='username' placeholder="username" value="{{username}}"></input>
+    <input name="password" type="password" placeholder="password" value="{{password}}"></input>
+    <button form-type="submit" type="primary">submit</button>
+    <checkbox-group name="remember">
+      <checkbox value="remember_password" checked="{{checked}}" name="remember">记住密码</checkbox>
+    </checkbox-group>
+  </form>
+
+<!-- 
+  <view class="message">
+    <text>{{message}}</text>
+  </view>
+  <view class="progress">
+    <progress percent="100" stroke-width="12" activeColor="#555555" backgroundColor="#772299" active show-info="false" />
+  </view>
+
+  <view class="text">
+    <text selectable="false" space="ensp" decode="true">text  中文  English &lt;&gt;</text>
+  </view>
+
+  <view class="editor">
+      <editor
+      placeholder="editor"
+      showImgSize
+      showImgToolbar
+      showImgResize
+      bindstatuschange="onStatusChange"
+      read-only=""
+      bindready="onEditorReady">
+      <p>adfs123fssadf</p>
+    </editor>
+  </view> -->
+
+</view>

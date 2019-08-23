@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#555",
+    "navigationBarTitleText": "Login",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#555555"
+  },
+  "sitemapLocation": "sitemap.json"
+}
